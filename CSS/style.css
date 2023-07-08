@@ -1,189 +1,45 @@
-#NavBar
-{
-    background-color: #d1d5b4;
-    width: 100%;
-    position: fixed;
-
-}
-
-.navbar{
-    background-color: aqua;
-}
-
-.nav
-{
-    float: left;
-}
-
-nav ul li {
-    float: right;
-    font-family: 'Golos Text', sans-serif;
-    font-size: 12px;
-    padding-right: 5%;
-}
-
-nav ul li a {
-    display: block; 
-    padding: 15px;
-    color: #fff;
-    text-decoration: none;
-  }
-
-.menu ul li {
-    list-style: none;
-}
- 
-.imgtipo {
-
-    float: left;
-    padding-left: 3%;
-}
-
-/* INICIO DE SESIÓN */
-.sesion 
-{
-    padding-top: 15%;
-    margin-left: 40%;
-}
-
-.email
-{
-    padding-bottom: 3%;
-    
-}
-
-.pass
-{
-    padding-bottom: 3%;
-  
-}
-
-#inicio .tinicio
-{
-    padding-top: 10%;
-    color: #D77F44;
-    float: left;
-
-
-    font-family: 'DM Serif Display', serif;
-}
-
-#inicio .pinicio {
-
-    color: rgb(0, 0, 0);
-    font-family: 'Golos Text', sans-serif;
-
-}
-
-.imginicio{
-
-    float: right;
-    padding-top: 5%;
-}
-
-#qs .tqs
-{
-    padding-top: 10%;
-    color: #D77F44;
-    margin-left: 40%;
-    
-
-    font-family: 'DM Serif Display', serif;
-}
-
-#qs .pqs {
-
-    color: rgb(0, 0, 0);
-    font-family: 'Golos Text', sans-serif;
-
-}
-
-.imgqs{
-
-    margin-left: 40%;
-    padding-top: 5%;
-}
-
-#servicios .tProductos
-{
-    padding-top: 10%;
-    margin-left: 40%;
-
-    color: #D77F44;
-    font-family: 'DM Serif Display', serif;
-}
-
-#servicios .pProductos {
-
-    color: rgb(0, 0, 0);
-    
-    font-family: 'Golos Text', sans-serif;
-
-}
-
-.vela1{
-
-    margin-left: 10%;
-    padding-top: 5%;
-}
-
-.vela2{
-
-    float: right;
-    padding-top: 5%;
-}
-
-#ofertas .tofertas
-{
-    padding-top: 10%;
-    color: #D77F44;
-    margin-left: 40%;
-
-    font-family: 'DM Serif Display', serif;
-}
-
-.o1{
-
-    margin-left: 10%;
-    padding-top: 5%;
-}
-
-.o2{
-
-    float: right;   
-    padding-top: 5%;
-}
-
-.o3{
-
-    float: right;
-    padding-top: 5%;
-}
-
-.o4 {
-
-    margin-left: 10%;
-    padding-top: 5%;
-}
-
-/* FOOTER */
-
-#footer {
-   
-    background-color: #ffffff;
-    padding-top: 15%;
-    width: 100%;
-    font-family: 'Golos Text', sans-serif;
-    font-size: 12px;
-    display: block; 
-
-}
-
-
 h1 {
     background-color: #D77F44;
     color:#ffffff;  
     font-family: 'DM Serif Display', serif;
     padding: 2%;
     text-align: center;
+}
+
+.TP {
+    color:#ffffff;  
+}
+
+.card-title {
+    font-family: 'Golos Text', sans-serif; }
+
+.card-text {
+    font-family: 'Golos Text', sans-serif; }
+
+.row {
+    padding-top:5%;
+}
+
+.container {
+    font-family: 'Golos Text', sans-serif;
+    align-content: center;
+    margin-left: 65%; }
+
+.d-flex {
+    font-family: 'DM Serif Display', serif; }
+
+.nav-item {
+    font-family: 'Golos Text', sans-serif; }
+
+.btn {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.card {
+    margin-top: 3%;
+}
+
+.nav{
+    margin-top: auto;
 }

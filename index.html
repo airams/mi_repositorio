@@ -16,39 +16,20 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="">
-            <img src="img/Icono nomada.png" alt="Bootstrap" width="30" height="42">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="">Inicio</a>
-              <a class="nav-link active" href="Complementos/productos.html">Productos</a>
-              <a class="nav-link disabled" href="#">Quienes Somos</a>
-              <a class="nav-link disabled">Iniciar Sesión</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom" >
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-4">Nómada</span>
+      </a>
 
-    <!-- <header id="NavBar">
-        <div class="imgtipo">
-            <img src="./img/Icono nomada.png" alt="Logo" width="50" height="auto"> 
-        </div>
-
-        <nav class="menu">
-            <ul>
-                <li><a href="./Complementos/productos.html">Productos</a></li>
-                <li><a href="./Complementos/ofertas.html"> Nuestras Ofertas</a></li>
-                <li><a href="./Complementos/quienes-somos.html">Quienes Somos</a></li>
-                <li><a href="./Complementos/inicio-sesion.html">Iniciar Sesión</a></li>
-            </ul>
-        </nav> -->
-
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="/Complementos/productos.html" class="nav-link">Productos</a></li>
+        <li class="nav-item"><a href="/Complementos/quienes-somos.html" class="nav-link">Quienes Somos</a></li>
+        <li class="nav-item"><a href="/Complementos/inicio-sesion.html" class="nav-link">Iniciar Sesión</a></li>
+      </ul>
     </header>
+  </div>
 
     <section id="inicio">
         
@@ -79,7 +60,7 @@
             </button>
           </div>
         
-          <h1>Productos</h1>
+          <h1 class="TP">Productos</h1>
 
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
@@ -121,14 +102,10 @@
           </div>
     </section>
 
-    <footer id="footer">
-        <div>
-            <p>&copy; Nómada 2023</p>
-        </div>
-        <div>
-            <a href="#">Instagram</a>
-            <a href="#">TikTok</a>
-        </div>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2023 Nómada SA de CV</span>
+      </div>
     </footer>
 
 </body>
