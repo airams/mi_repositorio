@@ -1,0 +1,15 @@
+section h1 {
+  background-color: #D77F44;
+  color: #ffffff;
+  font-family: "DM Serif Display", serif;
+  padding: 2%;
+  text-align: center;
+}
+section card-text {
+  font-family: "Golos Text", sans-serif;
+}
+section container {
+  font-family: "Golos Text", sans-serif;
+  align-content: center;
+  margin-left: 65%;
+}/*# sourceMappingURL=main.css.map */
